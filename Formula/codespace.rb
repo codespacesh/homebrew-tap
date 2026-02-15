@@ -6,10 +6,10 @@ class Codespace < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/codespacesh/codespace/releases/download/v#{version}/codespace-v#{version}-aarch64-apple-darwin"
+      url "https://github.com/codespacesh/homebrew-tap/releases/download/v#{version}/codespace-v#{version}-aarch64-apple-darwin"
       sha256 "PLACEHOLDER"
     else
-      url "https://github.com/codespacesh/codespace/releases/download/v#{version}/codespace-v#{version}-x86_64-apple-darwin"
+      url "https://github.com/codespacesh/homebrew-tap/releases/download/v#{version}/codespace-v#{version}-x86_64-apple-darwin"
       sha256 "PLACEHOLDER"
     end
   end
