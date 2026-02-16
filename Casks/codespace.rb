@@ -1,12 +1,12 @@
 cask "codespace" do
-  version "0.3.55"
+  version "0.3.56"
 
   if Hardware::CPU.arm?
     url "https://github.com/codespacesh/homebrew-tap/releases/download/v#{version}/Codespace-v#{version}-aarch64-apple-darwin.zip"
-    sha256 "9ce534564aa251e868639038319eba63a93c2501542defd413a3430301db5072"
+    sha256 "1020601315c245c14ca27d84a0a203b3df159153571866d8f7c3dff20c494a63"
   else
     url "https://github.com/codespacesh/homebrew-tap/releases/download/v#{version}/Codespace-v#{version}-x86_64-apple-darwin.zip"
-    sha256 "c6bc9ac384ade9c16dfacff2fd946afbb08c5b896e5857d8c75771e6ac0f5a91"
+    sha256 "3ac7c693b1910512168d54b921a5eb8b82a1d38e37ec0c6dbb702d1402056c3d"
   end
 
   name "Codespace"
